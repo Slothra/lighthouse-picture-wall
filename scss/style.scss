@@ -17,10 +17,25 @@ body {
 #team-members .member div {
   width: 178px;
   height: 178px;
+  border-radius: 10px;
+  transition: 2s;
+  transition-timing-function: linear;
+}
+
+#team-members .member div:hover {
+box-shadow: 10px 10px 5px #FF00FF;
+transition: 2s;
+transition-timing-function: linear;
 }
 
 #team-members .member div.name {
+  height: 35px;
   text-align: center;  
+}
+
+#team-members .member div.name:hover {
+  box-shadow: 10px 10px 5px #888888;
+  font-style: italic;
 }
 
 $primaryColor: #FF0000;
